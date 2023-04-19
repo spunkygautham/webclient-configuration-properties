@@ -1,0 +1,6 @@
+server:
+  port: ${SERVER_PORT:8089}
+  tomcat:
+    max-threads: ${TOMCAT_MAX_THREADS:200}
+    accept-count: ${TOMCAT_ACCEPT_COUNT:100}
+    relaxed-query-chars: '|,{,},[,]'
